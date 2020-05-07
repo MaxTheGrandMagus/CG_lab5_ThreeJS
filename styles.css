@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Dosis';
+  font-size: 30px;
+  overflow: hidden;
+}
+
+.scene, canvas {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+  .scene p {
+    padding: 20px;
+    text-align: center;
+  }
